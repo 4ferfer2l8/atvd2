@@ -7,7 +7,7 @@
     android:background="@drawable/telalogin"
     android:gravity="center"
     android:padding="16dp"
-    tools:context=".tela2">
+    tools:context=".telaregistro">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,12 +64,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cadastrar"
-            android:backgroundTint="#0F8BC34A"
-            android:textColor="#4CAF50"
+            android:backgroundTint="#0C596C7A"
+            android:textColor="#6C8188"
             android:padding="18dp"
             android:layout_marginTop="32dp"
             android:textSize="20sp"
             android:id="@+id/login_btn"/>
+
+        <TextView
+            android:id="@+id/jatemconta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Já tem uma conta?"
+            android:textColor="#6C8188"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

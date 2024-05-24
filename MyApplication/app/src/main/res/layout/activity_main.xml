@@ -55,17 +55,14 @@
             android:layout_marginTop="16dp"
             android:text="Criar nova conta?"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            app:layout_counstraintEndTop_toBottomOf="@+id/Loginbtn"
-            app:layout_counstraintEnd_toEndOf="@+id/Loginbtn"
-            app:layout_counstraintStart_toStartOf="@+id/Loginbtn" />
+            android:textSize="20sp" />
 
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"
-                android:backgroundTint="#0C4CAF50"
-                android:textColor="#4CAF50"
+                android:backgroundTint="#0C596C7A"
+                android:textColor="#6C8188"
                 android:padding="18dp"
                 android:layout_marginTop="32dp"
                 android:textSize="20sp"
